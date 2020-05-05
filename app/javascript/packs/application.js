@@ -16,3 +16,8 @@ import "../stylesheets/application.scss";
 //
 const images = require.context("../images", true);
 const imagePath = name => images(name, true);
+
+import { library, dom } from "@fortawesome/fontawesome-svg-core";
+import { fad } from "@fortawesome/pro-duotone-svg-icons";
+library.add(fad);
+dom.watch();
