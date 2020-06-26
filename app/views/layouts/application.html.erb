@@ -10,6 +10,9 @@
   </head>
 
   <body>
+    <p class="notice"><%= @notice %></p>
+    <p class="error"><%= @error %></p>
+
     <%= yield %>
     <%= render partial: 'layouts/footer' %>
   </body>
